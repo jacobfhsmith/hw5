@@ -31,6 +31,9 @@ anes<-read_csv("~/anes2020_subset.csv")
 
 ## Exercise 1
 
+```{r ex_1}
+set.seed(199)
+```
 # References
 
 - 2020 American National Election Study. https://electionstudies.org/data-center/2020-time-series-study/
