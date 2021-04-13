@@ -1,0 +1,36 @@
+---
+title: "Homework 05: Multiple and Logistic Regression"
+subtitle: "Due: Tuesday April 20, 11:59pm ET"
+author: ""
+date: ""
+output:
+  pdf_document: default
+---
+
+```{r include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, eval = TRUE, message = FALSE, 
+                      warning = FALSE, comment = "#>", highlight = TRUE)
+set.seed(199)
+```
+
+# Packages
+
+```{r packages}
+library(tidyverse)
+library(broom)
+library(viridis)
+```
+
+# Data
+
+```{r load_data}
+anes<-read_csv("~/anes2020_subset.csv")
+```
+
+# Exercises
+
+## Exercise 1
+
+# References
+
+- 2020 American National Election Study. https://electionstudies.org/data-center/2020-time-series-study/
